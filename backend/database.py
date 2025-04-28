@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker, declarative_base
 
 
 
-DATABASE_URL = "mysql+pymysql://root:Waah306612$@localhost/job_scraper"
+DATABASE_URL = "mysql+pymysql://root:yourpassword@localhost/database"
 
 engine = create_engine(DATABASE_URL)
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
